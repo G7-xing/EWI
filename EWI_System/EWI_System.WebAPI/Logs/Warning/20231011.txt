@@ -1,0 +1,483 @@
+2023-10-11 09:05:45,930 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 09:05:45,943 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 09:05:45,946 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 09:09:31,829 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 09:09:31,837 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 09:09:31,840 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 09:10:07,587 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 09:10:07,598 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 09:10:07,600 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 09:11:00,322 [5]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 61
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 09:11:45,079 [14]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 61
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 09:58:10,161 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 09:58:10,172 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 09:58:10,174 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 09:58:45,842 [7]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk3MDA3NTI1LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.lWDXmTRlUOb5ZHsVACWRMn5_fgUtvzn0udf9VtHdfls
+
+2023-10-11 10:01:48,599 [25]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 38
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 58
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:01:48,599 [30]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 38
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 58
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:02:43,303 [27]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 38
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 58
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:14:52,872 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:14:52,882 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:14:52,884 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 10:15:39,479 [5]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.Exception: No support value(EWI_System.Service.CTReportService+<>c__DisplayClass3_0).listQuery.When[0] Exception has been thrown by the target of an invocation.
+   at SqlSugar.ExpressionTool.DynamicInvoke(Expression expression, MemberExpression memberExpression)
+   at SqlSugar.BinaryExpressionResolve.Other(ExpressionParameter parameter)
+   at SqlSugar.BinaryExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.BaseResolve.GetMethodCallArgs(ExpressionParameter parameter, Expression item, String name)
+   at SqlSugar.MethodCallExpressionResolve.AppendItem(ExpressionParameter parameter, String name, IEnumerable`1 args, MethodCallExpressionModel model, Expression item)
+   at SqlSugar.MethodCallExpressionResolve.Where(ExpressionParameter parameter, Nullable`1 isLeft, String name, IEnumerable`1 args, MethodCallExpressionModel model, List`1 appendArgs)
+   at SqlSugar.MethodCallExpressionResolve.SqlFuncMethod(ExpressionParameter parameter, MethodCallExpression express, Nullable`1 isLeft)
+   at SqlSugar.MethodCallExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.LambdaExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryBuilder.GetExpressionValue(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryableProvider`1._Where(Expression expression)
+   at SqlSugar.QueryableProvider`1.WhereIF(Boolean isWhere, Expression`1 expression)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total)
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:15:51,796 [12]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.Exception: No support value(EWI_System.Service.CTReportService+<>c__DisplayClass3_0).listQuery.When[0] Exception has been thrown by the target of an invocation.
+   at SqlSugar.ExpressionTool.DynamicInvoke(Expression expression, MemberExpression memberExpression)
+   at SqlSugar.BinaryExpressionResolve.Other(ExpressionParameter parameter)
+   at SqlSugar.BinaryExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.BaseResolve.GetMethodCallArgs(ExpressionParameter parameter, Expression item, String name)
+   at SqlSugar.MethodCallExpressionResolve.AppendItem(ExpressionParameter parameter, String name, IEnumerable`1 args, MethodCallExpressionModel model, Expression item)
+   at SqlSugar.MethodCallExpressionResolve.Where(ExpressionParameter parameter, Nullable`1 isLeft, String name, IEnumerable`1 args, MethodCallExpressionModel model, List`1 appendArgs)
+   at SqlSugar.MethodCallExpressionResolve.SqlFuncMethod(ExpressionParameter parameter, MethodCallExpression express, Nullable`1 isLeft)
+   at SqlSugar.MethodCallExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.LambdaExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryBuilder.GetExpressionValue(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryableProvider`1._Where(Expression expression)
+   at SqlSugar.QueryableProvider`1.WhereIF(Boolean isWhere, Expression`1 expression)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total)
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:16:06,121 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:16:06,132 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:16:06,135 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 10:17:46,618 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:17:46,627 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:17:46,628 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 10:18:08,479 [11]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.Exception: No support value(EWI_System.Service.CTReportService+<>c__DisplayClass3_0).listQuery.When[0] Exception has been thrown by the target of an invocation.
+   at SqlSugar.ExpressionTool.DynamicInvoke(Expression expression, MemberExpression memberExpression)
+   at SqlSugar.BinaryExpressionResolve.Other(ExpressionParameter parameter)
+   at SqlSugar.BinaryExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.BaseResolve.GetMethodCallArgs(ExpressionParameter parameter, Expression item, String name)
+   at SqlSugar.MethodCallExpressionResolve.AppendItem(ExpressionParameter parameter, String name, IEnumerable`1 args, MethodCallExpressionModel model, Expression item)
+   at SqlSugar.MethodCallExpressionResolve.Where(ExpressionParameter parameter, Nullable`1 isLeft, String name, IEnumerable`1 args, MethodCallExpressionModel model, List`1 appendArgs)
+   at SqlSugar.MethodCallExpressionResolve.SqlFuncMethod(ExpressionParameter parameter, MethodCallExpression express, Nullable`1 isLeft)
+   at SqlSugar.MethodCallExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.LambdaExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryBuilder.GetExpressionValue(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryableProvider`1._Where(Expression expression)
+   at SqlSugar.QueryableProvider`1.WhereIF(Boolean isWhere, Expression`1 expression)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 39
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 59
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:18:59,541 [10]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.Exception: No support value(EWI_System.Service.CTReportService+<>c__DisplayClass3_0).listQuery.When[0] Exception has been thrown by the target of an invocation.
+   at SqlSugar.ExpressionTool.DynamicInvoke(Expression expression, MemberExpression memberExpression)
+   at SqlSugar.BinaryExpressionResolve.Other(ExpressionParameter parameter)
+   at SqlSugar.BinaryExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.BaseResolve.GetMethodCallArgs(ExpressionParameter parameter, Expression item, String name)
+   at SqlSugar.MethodCallExpressionResolve.AppendItem(ExpressionParameter parameter, String name, IEnumerable`1 args, MethodCallExpressionModel model, Expression item)
+   at SqlSugar.MethodCallExpressionResolve.Where(ExpressionParameter parameter, Nullable`1 isLeft, String name, IEnumerable`1 args, MethodCallExpressionModel model, List`1 appendArgs)
+   at SqlSugar.MethodCallExpressionResolve.SqlFuncMethod(ExpressionParameter parameter, MethodCallExpression express, Nullable`1 isLeft)
+   at SqlSugar.MethodCallExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.LambdaExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryBuilder.GetExpressionValue(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryableProvider`1._Where(Expression expression)
+   at SqlSugar.QueryableProvider`1.WhereIF(Boolean isWhere, Expression`1 expression)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 39
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 59
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:20:56,396 [25]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.Exception: System.Exception: No support value(EWI_System.Service.CTReportService+<>c__DisplayClass3_0).listQuery.When[0] Exception has been thrown by the target of an invocation.
+   at SqlSugar.ExpressionTool.DynamicInvoke(Expression expression, MemberExpression memberExpression)
+   at SqlSugar.BinaryExpressionResolve.Other(ExpressionParameter parameter)
+   at SqlSugar.BinaryExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.BaseResolve.GetMethodCallArgs(ExpressionParameter parameter, Expression item, String name)
+   at SqlSugar.MethodCallExpressionResolve.AppendItem(ExpressionParameter parameter, String name, IEnumerable`1 args, MethodCallExpressionModel model, Expression item)
+   at SqlSugar.MethodCallExpressionResolve.Where(ExpressionParameter parameter, Nullable`1 isLeft, String name, IEnumerable`1 args, MethodCallExpressionModel model, List`1 appendArgs)
+   at SqlSugar.MethodCallExpressionResolve.SqlFuncMethod(ExpressionParameter parameter, MethodCallExpression express, Nullable`1 isLeft)
+   at SqlSugar.MethodCallExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.LambdaExpressionResolve..ctor(ExpressionParameter parameter)
+   at SqlSugar.BaseResolve.Start()
+   at SqlSugar.ExpressionContext.Resolve(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryBuilder.GetExpressionValue(Expression expression, ResolveExpressType resolveType)
+   at SqlSugar.QueryableProvider`1._Where(Expression expression)
+   at SqlSugar.QueryableProvider`1.WhereIF(Boolean isWhere, Expression`1 expression)
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 39
+   at EWI_System.Service.CTReportService.FetchList(Int32 pageNum, Int32 pageSize, ListQuery listQuery, Int32& total) in C:\EWI\EWI_System\EWI_System.Service\CTReport\CTReportService.cs:line 59
+   at EWI_System.WebAPI.Controllers.CTReportController.FetchList(CTReportReq cTReportReq) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\CTReportController.cs:line 60
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-11 10:21:51,068 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:21:51,077 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:21:51,079 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 10:22:35,099 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:22:35,108 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:22:35,111 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 10:30:43,670 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:30:43,680 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:30:43,684 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 10:55:49,238 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 10:55:49,246 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 10:55:49,249 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 11:18:41,530 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 11:18:41,539 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 11:18:41,541 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 11:19:41,740 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 11:19:41,750 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 11:19:41,753 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 13:12:53,267 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-11 13:12:53,278 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-11 13:12:53,281 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-11 15:28:34,478 [5]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk3MDI3MzE0LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.TyyVXhLZIkWvT2XNqj3YFFN3_VL0vPJ7zV7QfkeTO5U
+

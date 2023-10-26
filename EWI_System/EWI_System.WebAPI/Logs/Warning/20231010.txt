@@ -1,0 +1,42 @@
+2023-10-10 09:36:49,207 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-10 09:36:49,218 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-10 09:36:49,221 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-10 09:36:53,322 [10]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk2OTE5ODEzLCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.r2xq5AaW_QcJNtQpWOj8O7b4uhaMWSIZb2X2TM3RnAg
+
+2023-10-10 14:49:37,080 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-10 14:49:37,091 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-10 14:49:37,092 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-10 15:00:56,187 [35]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk2OTM5MjU2LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.N8SljyXP-G6BI5ohf2K86YXHDa7oa3cfZS9bJOsMNqM
+
+2023-10-10 16:31:20,511 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-10 16:31:20,525 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-10 16:31:20,526 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-10 16:52:52,273 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-10 16:52:52,283 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-10 16:52:52,285 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+

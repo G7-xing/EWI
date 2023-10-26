@@ -1,0 +1,15 @@
+2023-10-20 09:49:26,412 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-10-20 09:49:26,420 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-10-20 09:49:26,423 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-10-20 09:55:44,473 [6]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk3Nzg0OTQ0LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.kMX1wJ_9bFTGIGsBQ4yimP6OTu9V6dvH1obVie2fT2Q
+
+2023-10-20 16:24:57,026 [68]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk3ODA4Mjk3LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.1X3f7HY0Rq5pNU2su8uYCOnWzbd-ubKbK4C2vBnB6Go
+

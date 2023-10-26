@@ -1,0 +1,148 @@
+2023-09-26 08:59:47,439 [81]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk1NzA3OTg3LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ._hiNDfAvRCM0PHUR8c8cfrNyplDeIPT-uCksXMLJJWc
+
+2023-09-26 09:38:25,077 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-09-26 09:38:25,112 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-09-26 09:38:25,115 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-09-26 10:00:55,037 [17]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IkppbmJhby5aaG91IiwiVXNlcklkIjoiOTg3OWUyZDEtZTkzMS00MDU4LWJiOTUtMTVmZmNiNTE2ZjE3IiwiTmlja05hbWUiOiJEMTgzNSIsIkRlcGFydG1lbnRJZCI6IkEyQUJBRTU0LUUwMDAtNEY0Ni05NjQxLTNBNjY3MUI1MTREQSIsImV4cCI6MTY5NTcxMTY1NSwiaXNzIjoid2ViQXBpIiwiYXVkIjoidnVlLWFkbWluIn0.0FBS-pkpbU0vYfxxcIhftGyze8Zhu3To1KLEWVPEvAw
+
+2023-09-26 10:01:06,950 [12]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at EWI_System.Service.RoleService.GetRoleByUserId(String userId) in C:\EWI\EWI_System\EWI_System.Service\Role\RoleService.cs:line 146
+   at EWI_System.WebAPI.Controllers.LoginController.Info(String token) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\LoginController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-26 10:01:18,643 [7]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IkppbmJhby5aaG91IiwiVXNlcklkIjoiOTg3OWUyZDEtZTkzMS00MDU4LWJiOTUtMTVmZmNiNTE2ZjE3IiwiTmlja05hbWUiOiJEMTgzNSIsIkRlcGFydG1lbnRJZCI6IkEyQUJBRTU0LUUwMDAtNEY0Ni05NjQxLTNBNjY3MUI1MTREQSIsImV4cCI6MTY5NTcxMTY3OCwiaXNzIjoid2ViQXBpIiwiYXVkIjoidnVlLWFkbWluIn0.4BJDLjpZr4DjnNXS4dmuUJ2erM_STl6NCrGtDCQgH-Q
+
+2023-09-26 10:01:37,301 [12]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at EWI_System.Service.RoleService.GetRoleByUserId(String userId) in C:\EWI\EWI_System\EWI_System.Service\Role\RoleService.cs:line 146
+   at EWI_System.WebAPI.Controllers.LoginController.Info(String token) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\LoginController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-26 10:01:51,820 [12]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk1NzExNzExLCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.WBxTwgOMLXuJm0EyOAtVuthsJVrO6nryVKxD85CaZ6Y
+
+2023-09-26 10:28:09,254 [34]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTMyODksImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.F5_B1CoyaJ70Od1XsLHGd_WJJAyvJGE1_j_eMtiKSCs
+
+2023-09-26 10:29:40,922 [37]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTMzODAsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.sbu3dTln2Mmr4RXMsI8RBxGCiANAN-7Z7PIwEGo9d-U
+
+2023-09-26 10:29:56,092 [4]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTMzOTYsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.xhqjkqRWQDZI6fLoRu1_fWK6rM9Fkjar9kM0KHhT9JA
+
+2023-09-26 10:30:05,162 [34]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTM0MDUsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.RN7rIA7IA24i0HS3b201ErwfMaeVwWwc3lznTr1T3io
+
+2023-09-26 10:31:38,839 [17]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTM0OTgsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.pTd4Z9mJwV6kZyZp5MHUCZdTHdZ4C55x43usMiCq8A4
+
+2023-09-26 10:31:51,290 [6]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTM1MTEsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.2RXDL-plQAmFA1WH3LCczts9sL3AFuW6nviIjVBmrtc
+
+2023-09-26 10:32:08,146 [23]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTM1MjgsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.ho39ExgOi6GXx2bhO5RM5IJ-wyoAJwPs21Mr1Zkoxf8
+
+2023-09-26 10:32:55,302 [16]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTM1NzUsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.4_KjPlDoDDcfKEgR3mYmglo7sTF8Pecq-DRr8YK-vo4
+
+2023-09-26 10:33:41,741 [55]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImppbnRpbmcueHUiLCJVc2VySWQiOiIzMGIyOTk1Yi0xODNmLTRmMzItYjcyNy0wNTJiNGVkMzVjMmYiLCJOaWNrTmFtZSI6IkU2MTYiLCJEZXBhcnRtZW50SWQiOiI3NTZDOEJFQy00MjRELTQ5RUEtQkIxMC1ERkUxREE3NzIzMDkiLCJleHAiOjE2OTU3MTM2MjEsImlzcyI6IndlYkFwaSIsImF1ZCI6InZ1ZS1hZG1pbiJ9.Jvaz_jgyf0SOfRffJ0yTvFqLD7Z68hziRY3jmyMU2Bs
+
+2023-09-26 14:38:57,534 [1]INFO  Microsoft.Hosting.Lifetime - 
+Application started. Press Ctrl+C to shut down.
+
+2023-09-26 14:38:57,547 [1]INFO  Microsoft.Hosting.Lifetime - 
+Hosting environment: Development
+
+2023-09-26 14:38:57,549 [1]INFO  Microsoft.Hosting.Lifetime - 
+Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+
+2023-09-26 14:44:19,982 [7]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk1NzI4NjU5LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.DWwHqz-rqGIDhmRFdgFnz1lgGHB6Wa9wYmYBRzKL4oo
+
+2023-09-26 14:48:00,917 [30]ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - 
+An unhandled exception has occurred while executing the request.
+
+Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'UserAttendanceInfo_PK'. Cannot insert duplicate key in object 'dbo.UserAttendanceInfo'. The duplicate key value is (2023-09-12).
+The statement has been terminated.
+   at SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.InsertableProvider`1.ExecuteCommand()
+   at EWI_System.Service.AttendanceService.CreateAttendance(UserAttendanceInfo attendanceInfo) in C:\EWI\EWI_System\EWI_System.Service\Attendance\AttendanceService.cs:line 26
+   at EWI_System.WebAPI.Controllers.AttendanceController.CreateAttendance(UserAttendanceInfo attendanceInfo) in C:\EWI\EWI_System\EWI_System.WebAPI\Controllers\AttendanceController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:89b1a63e-553d-4fe5-8fd7-c3ddbf32d652
+Error Number:2627,State:1,Class:14
+2023-09-26 15:05:31,029 [29]WARN  EWI_System.WebAPI.Controllers.LoginController - 
+测试登录成功后的warningeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiVXNlcklkIjoiOWMzM2RiYzItZGY5MC00NWIwLTlmMDktMjEzNzE2M2E3NmQwIiwiTmlja05hbWUiOiJhZG1pbijnrqHnkIblkZgpIiwiRGVwYXJ0bWVudElkIjoiOEE3MTg0OEEtNkY2QS00QkNBLTkzMDMtMjBGOTBBQkZDMTQ4IiwiZXhwIjoxNjk1NzI5OTMxLCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJ2dWUtYWRtaW4ifQ.Ulli7IqN0bSagOk6sdRVPwhuGqRLf9Up5fzplldyzbQ
+

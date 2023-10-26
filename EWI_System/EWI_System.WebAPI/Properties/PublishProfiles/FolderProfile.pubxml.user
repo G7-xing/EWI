@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\EWI\EWI_System\EWI_System.WebAPI\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2023-10-25T07:01:22.8534845Z;True|2023-10-07T14:26:54.9523538+08:00;True|2023-09-12T14:57:56.2509521+08:00;True|2023-09-12T14:36:49.4586182+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Controllers/AttendanceController.cs">
+      <publishTime>10/09/2023 16:35:19</publishTime>
+    </File>
+    <File Include="Controllers/DepartmentController.cs">
+      <publishTime>08/22/2023 16:23:29</publishTime>
+    </File>
+    <File Include="Controllers/EWIFileController.cs">
+      <publishTime>09/14/2023 10:55:28</publishTime>
+    </File>
+    <File Include="Controllers/LineController.cs">
+      <publishTime>08/30/2023 14:45:54</publishTime>
+    </File>
+    <File Include="Controllers/LoginController.cs">
+      <publishTime>09/22/2023 15:39:58</publishTime>
+    </File>
+    <File Include="Controllers/MenuController.cs">
+      <publishTime>09/05/2023 10:36:16</publishTime>
+    </File>
+    <File Include="Controllers/RoleController.cs">
+      <publishTime>09/05/2023 14:49:25</publishTime>
+    </File>
+    <File Include="Controllers/ToolsController.cs">
+      <publishTime>08/31/2023 10:53:51</publishTime>
+    </File>
+    <File Include="Controllers/UserController.cs">
+      <publishTime>09/08/2023 15:03:11</publishTime>
+    </File>
+    <File Include="Controllers/WeatherForecastController.cs">
+      <publishTime>08/22/2023 16:23:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

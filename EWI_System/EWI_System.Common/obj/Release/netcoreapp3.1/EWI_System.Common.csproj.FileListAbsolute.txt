@@ -1,0 +1,13 @@
+C:\EWI\EWI_System\EWI_System.Common\bin\Release\netcoreapp3.1\EWI_System.Common.deps.json
+C:\EWI\EWI_System\EWI_System.Common\bin\Release\netcoreapp3.1\EWI_System.Common.dll
+C:\EWI\EWI_System\EWI_System.Common\bin\Release\netcoreapp3.1\EWI_System.Common.pdb
+C:\EWI\EWI_System\EWI_System.Common\bin\Release\netcoreapp3.1\EWI_System.Model.dll
+C:\EWI\EWI_System\EWI_System.Common\bin\Release\netcoreapp3.1\EWI_System.Model.pdb
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.csproj.AssemblyReference.cache
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.AssemblyInfoInputs.cache
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.AssemblyInfo.cs
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.csproj.CoreCompileInputs.cache
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.csproj.CopyComplete
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.dll
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.pdb
+C:\EWI\EWI_System\EWI_System.Common\obj\Release\netcoreapp3.1\EWI_System.Common.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,31 @@
+2023-09-13 09:05:13,663 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 09:05:13,672 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 09:05:13,674 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 09:05:21,326 [10]INFO  EWI_System.WebAPI.Controllers.WeatherForecastController - 测试log4net
+2023-09-13 09:27:26,422 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 09:27:26,444 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 09:27:26,446 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 09:45:03,457 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 09:45:03,474 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 09:45:03,478 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 10:19:38,687 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 10:19:38,699 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 10:19:38,702 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 10:55:32,728 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 10:55:32,739 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 10:55:32,741 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 13:10:14,206 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 13:10:14,216 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 13:10:14,219 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 13:33:06,076 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 13:33:06,092 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 13:33:06,094 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 16:21:15,289 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 16:21:15,305 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 16:21:15,308 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 16:23:00,850 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 16:23:00,864 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 16:23:00,867 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
+2023-09-13 16:47:25,601 [1]INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-13 16:47:25,615 [1]INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-13 16:47:25,617 [1]INFO  Microsoft.Hosting.Lifetime - Content root path: C:\EWI\EWI_System\EWI_System.WebAPI
