@@ -1,0 +1,442 @@
+{
+  "name": "vue-admin-template",
+  "version": "4.4.0",
+  "dependencies": {
+    "@vue-office/excel": {
+      "version": "1.4.0",
+      "from": "@vue-office/excel",
+      "resolved": "https://registry.npmmirror.com/@vue-office/excel/-/excel-1.4.0.tgz"
+    },
+    "@vue-office/pdf": {
+      "version": "1.5.1",
+      "from": "@vue-office/pdf",
+      "resolved": "https://registry.npmmirror.com/@vue-office/pdf/-/pdf-1.5.1.tgz"
+    },
+    "@vue/composition-api": {
+      "version": "1.7.2",
+      "from": "@vue/composition-api",
+      "resolved": "https://registry.npmmirror.com/@vue/composition-api/-/composition-api-1.7.2.tgz"
+    },
+    "axios": {
+      "version": "0.18.1",
+      "from": "axios@0.18.1",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-0.18.1.tgz",
+      "dependencies": {
+        "follow-redirects": {
+          "version": "1.5.10",
+          "from": "follow-redirects@1.5.10",
+          "resolved": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.5.10.tgz",
+          "dependencies": {
+            "debug": {
+              "version": "3.1.0",
+              "from": "debug@=3.1.0",
+              "resolved": "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz",
+              "dependencies": {
+                "ms": {
+                  "version": "2.0.0",
+                  "from": "ms@2.0.0",
+                  "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
+                }
+              }
+            }
+          }
+        },
+        "is-buffer": {
+          "version": "2.0.5",
+          "from": "is-buffer@^2.0.2",
+          "resolved": "https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz"
+        }
+      }
+    },
+    "core-js": {
+      "version": "3.6.5",
+      "from": "core-js@3.6.5",
+      "resolved": "https://registry.npmjs.org/core-js/-/core-js-3.6.5.tgz"
+    },
+    "default-passive-events": {
+      "version": "2.0.0",
+      "from": "default-passive-events",
+      "resolved": "https://registry.npmmirror.com/default-passive-events/-/default-passive-events-2.0.0.tgz"
+    },
+    "element-ui": {
+      "version": "2.13.2",
+      "from": "element-ui@2.13.2",
+      "resolved": "https://registry.npmjs.org/element-ui/-/element-ui-2.13.2.tgz",
+      "dependencies": {
+        "async-validator": {
+          "version": "1.8.5",
+          "from": "async-validator@~1.8.1",
+          "resolved": "https://registry.npmjs.org/async-validator/-/async-validator-1.8.5.tgz",
+          "dependencies": {
+            "babel-runtime": {
+              "version": "6.26.0",
+              "from": "babel-runtime@6.x",
+              "resolved": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz",
+              "dependencies": {
+                "core-js": {
+                  "version": "2.6.12",
+                  "from": "core-js@^2.4.0",
+                  "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+                },
+                "regenerator-runtime": {
+                  "version": "0.11.1",
+                  "from": "regenerator-runtime@^0.11.0",
+                  "resolved": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz"
+                }
+              }
+            }
+          }
+        },
+        "babel-helper-vue-jsx-merge-props": {
+          "version": "2.0.3",
+          "from": "babel-helper-vue-jsx-merge-props@^2.0.0",
+          "resolved": "https://registry.npmjs.org/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz"
+        },
+        "deepmerge": {
+          "version": "1.5.2",
+          "from": "deepmerge@^1.2.0",
+          "resolved": "https://registry.npmjs.org/deepmerge/-/deepmerge-1.5.2.tgz"
+        },
+        "normalize-wheel": {
+          "version": "1.0.1",
+          "from": "normalize-wheel@^1.0.1",
+          "resolved": "https://registry.npmjs.org/normalize-wheel/-/normalize-wheel-1.0.1.tgz"
+        },
+        "resize-observer-polyfill": {
+          "version": "1.5.1",
+          "from": "resize-observer-polyfill@^1.5.0",
+          "resolved": "https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz"
+        },
+        "throttle-debounce": {
+          "version": "1.1.0",
+          "from": "throttle-debounce@^1.0.1",
+          "resolved": "https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-1.1.0.tgz"
+        }
+      }
+    },
+    "file-saver": {
+      "version": "2.0.5",
+      "from": "file-saver",
+      "resolved": "https://registry.npmmirror.com/file-saver/-/file-saver-2.0.5.tgz"
+    },
+    "js-cookie": {
+      "version": "2.2.0",
+      "from": "js-cookie@2.2.0",
+      "resolved": "https://registry.npmjs.org/js-cookie/-/js-cookie-2.2.0.tgz"
+    },
+    "normalize.css": {
+      "version": "7.0.0",
+      "from": "normalize.css@7.0.0",
+      "resolved": "https://registry.npmjs.org/normalize.css/-/normalize.css-7.0.0.tgz"
+    },
+    "nprogress": {
+      "version": "0.2.0",
+      "from": "nprogress@0.2.0",
+      "resolved": "https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz"
+    },
+    "path-to-regexp": {
+      "version": "2.4.0",
+      "from": "path-to-regexp@2.4.0",
+      "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-2.4.0.tgz"
+    },
+    "vue": {
+      "version": "2.6.10",
+      "from": "vue@2.6.10",
+      "resolved": "https://registry.npmjs.org/vue/-/vue-2.6.10.tgz"
+    },
+    "vue-demi": {
+      "version": "0.13.11",
+      "from": "vue-demi@0.13.11",
+      "resolved": "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz"
+    },
+    "vue-pdf": {
+      "version": "4.3.0",
+      "from": "vue-pdf",
+      "resolved": "https://registry.npmmirror.com/vue-pdf/-/vue-pdf-4.3.0.tgz",
+      "dependencies": {
+        "babel-plugin-syntax-dynamic-import": {
+          "version": "6.18.0",
+          "from": "babel-plugin-syntax-dynamic-import@^6.18.0",
+          "resolved": "https://registry.npmmirror.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz"
+        },
+        "pdfjs-dist": {
+          "version": "2.6.347",
+          "from": "pdfjs-dist@2.6.347",
+          "resolved": "https://registry.npmmirror.com/pdfjs-dist/-/pdfjs-dist-2.6.347.tgz"
+        },
+        "raw-loader": {
+          "version": "4.0.2",
+          "from": "raw-loader@^4.0.2",
+          "resolved": "https://registry.npmmirror.com/raw-loader/-/raw-loader-4.0.2.tgz",
+          "dependencies": {
+            "loader-utils": {
+              "version": "2.0.4",
+              "from": "loader-utils@^2.0.0",
+              "resolved": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.4.tgz",
+              "dependencies": {
+                "big.js": {
+                  "version": "5.2.2",
+                  "from": "big.js@^5.2.2",
+                  "resolved": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+                },
+                "emojis-list": {
+                  "version": "3.0.0",
+                  "from": "emojis-list@^3.0.0",
+                  "resolved": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+                },
+                "json5": {
+                  "version": "2.2.3",
+                  "from": "json5@^2.2.2",
+                  "resolved": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
+                }
+              }
+            },
+            "schema-utils": {
+              "version": "3.3.0",
+              "from": "schema-utils@^3.0.0",
+              "resolved": "https://registry.npmmirror.com/schema-utils/-/schema-utils-3.3.0.tgz",
+              "dependencies": {
+                "@types/json-schema": {
+                  "version": "7.0.12",
+                  "from": "@types/json-schema@^7.0.5",
+                  "resolved": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.12.tgz"
+                },
+                "ajv": {
+                  "version": "6.12.6",
+                  "from": "ajv@^6.12.3",
+                  "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz",
+                  "dependencies": {
+                    "fast-deep-equal": {
+                      "version": "3.1.3",
+                      "from": "fast-deep-equal@^3.1.1",
+                      "resolved": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
+                    },
+                    "fast-json-stable-stringify": {
+                      "version": "2.1.0",
+                      "from": "fast-json-stable-stringify@^2.0.0",
+                      "resolved": "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz"
+                    },
+                    "json-schema-traverse": {
+                      "version": "0.4.1",
+                      "from": "json-schema-traverse@^0.4.1",
+                      "resolved": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz"
+                    },
+                    "uri-js": {
+                      "version": "4.4.1",
+                      "from": "uri-js@^4.2.2",
+                      "resolved": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz",
+                      "dependencies": {
+                        "punycode": {
+                          "version": "2.3.0",
+                          "from": "punycode@^2.1.0",
+                          "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.3.0.tgz"
+                        }
+                      }
+                    }
+                  }
+                },
+                "ajv-keywords": {
+                  "version": "3.5.2",
+                  "from": "ajv-keywords@^3.5.2",
+                  "resolved": "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz"
+                }
+              }
+            }
+          }
+        },
+        "loader-utils": {
+          "version": "1.4.2",
+          "from": "loader-utils@^1.4.0",
+          "resolved": "https://registry.npmmirror.com/loader-utils/-/loader-utils-1.4.2.tgz",
+          "dependencies": {
+            "big.js": {
+              "version": "5.2.2",
+              "from": "big.js@^5.2.2",
+              "resolved": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+            },
+            "emojis-list": {
+              "version": "3.0.0",
+              "from": "emojis-list@^3.0.0",
+              "resolved": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+            },
+            "json5": {
+              "version": "1.0.2",
+              "from": "json5@^1.0.1",
+              "resolved": "https://registry.npmmirror.com/json5/-/json5-1.0.2.tgz",
+              "dependencies": {
+                "minimist": {
+                  "version": "1.2.8",
+                  "from": "minimist@^1.2.0",
+                  "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
+                }
+              }
+            }
+          }
+        },
+        "vue-resize-sensor": {
+          "version": "2.0.0",
+          "from": "vue-resize-sensor@^2.0.0",
+          "resolved": "https://registry.npmmirror.com/vue-resize-sensor/-/vue-resize-sensor-2.0.0.tgz"
+        },
+        "worker-loader": {
+          "version": "2.0.0",
+          "from": "worker-loader@^2.0.0",
+          "resolved": "https://registry.npmmirror.com/worker-loader/-/worker-loader-2.0.0.tgz",
+          "dependencies": {
+            "loader-utils": {
+              "version": "1.4.2",
+              "from": "loader-utils@^1.0.0",
+              "resolved": "https://registry.npmmirror.com/loader-utils/-/loader-utils-1.4.2.tgz",
+              "dependencies": {
+                "big.js": {
+                  "version": "5.2.2",
+                  "from": "big.js@^5.2.2",
+                  "resolved": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+                },
+                "emojis-list": {
+                  "version": "3.0.0",
+                  "from": "emojis-list@^3.0.0",
+                  "resolved": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz"
+                },
+                "json5": {
+                  "version": "1.0.2",
+                  "from": "json5@^1.0.1",
+                  "resolved": "https://registry.npmmirror.com/json5/-/json5-1.0.2.tgz",
+                  "dependencies": {
+                    "minimist": {
+                      "version": "1.2.8",
+                      "from": "minimist@^1.2.0",
+                      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
+                    }
+                  }
+                }
+              }
+            },
+            "schema-utils": {
+              "version": "0.4.7",
+              "from": "schema-utils@^0.4.0",
+              "resolved": "https://registry.npmmirror.com/schema-utils/-/schema-utils-0.4.7.tgz",
+              "dependencies": {
+                "ajv": {
+                  "version": "6.12.6",
+                  "from": "ajv@^6.12.3",
+                  "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz"
+                },
+                "ajv-keywords": {
+                  "version": "3.5.2",
+                  "from": "ajv-keywords@^3.5.2",
+                  "resolved": "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "vue-router": {
+      "version": "3.0.6",
+      "from": "vue-router@3.0.6",
+      "resolved": "https://registry.npmjs.org/vue-router/-/vue-router-3.0.6.tgz"
+    },
+    "vue-seamless-scroll": {
+      "version": "1.1.23",
+      "from": "vue-seamless-scroll",
+      "resolved": "https://registry.npmmirror.com/vue-seamless-scroll/-/vue-seamless-scroll-1.1.23.tgz",
+      "dependencies": {
+        "comutils": {
+          "version": "1.1.19",
+          "from": "comutils@^1.1.9",
+          "resolved": "https://registry.npmmirror.com/comutils/-/comutils-1.1.19.tgz"
+        }
+      }
+    },
+    "vuex": {
+      "version": "3.1.0",
+      "from": "vuex@3.1.0",
+      "resolved": "https://registry.npmjs.org/vuex/-/vuex-3.1.0.tgz"
+    },
+    "vxe-table": {
+      "version": "3.7.5",
+      "from": "vxe-table@legacy",
+      "resolved": "https://registry.npmmirror.com/vxe-table/-/vxe-table-3.7.5.tgz",
+      "dependencies": {
+        "dom-zindex": {
+          "version": "1.0.1",
+          "from": "dom-zindex@^1.0.1",
+          "resolved": "https://registry.npmmirror.com/dom-zindex/-/dom-zindex-1.0.1.tgz"
+        },
+        "xe-utils": {
+          "version": "3.5.13",
+          "from": "xe-utils",
+          "resolved": "https://registry.npmmirror.com/xe-utils/-/xe-utils-3.5.13.tgz"
+        }
+      }
+    },
+    "xe-utils": {
+      "version": "3.5.13",
+      "from": "xe-utils",
+      "resolved": "https://registry.npmmirror.com/xe-utils/-/xe-utils-3.5.13.tgz"
+    },
+    "xlsx": {
+      "version": "0.18.5",
+      "from": "xlsx",
+      "resolved": "https://registry.npmmirror.com/xlsx/-/xlsx-0.18.5.tgz",
+      "dependencies": {
+        "adler-32": {
+          "version": "1.3.1",
+          "from": "adler-32@~1.3.0",
+          "resolved": "https://registry.npmmirror.com/adler-32/-/adler-32-1.3.1.tgz"
+        },
+        "cfb": {
+          "version": "1.2.2",
+          "from": "cfb@~1.2.1",
+          "resolved": "https://registry.npmmirror.com/cfb/-/cfb-1.2.2.tgz",
+          "dependencies": {
+            "adler-32": {
+              "version": "1.3.1",
+              "from": "adler-32@~1.3.0",
+              "resolved": "https://registry.npmmirror.com/adler-32/-/adler-32-1.3.1.tgz"
+            },
+            "crc-32": {
+              "version": "1.2.2",
+              "from": "crc-32@~1.2.1",
+              "resolved": "https://registry.npmmirror.com/crc-32/-/crc-32-1.2.2.tgz"
+            }
+          }
+        },
+        "codepage": {
+          "version": "1.15.0",
+          "from": "codepage@~1.15.0",
+          "resolved": "https://registry.npmmirror.com/codepage/-/codepage-1.15.0.tgz"
+        },
+        "crc-32": {
+          "version": "1.2.2",
+          "from": "crc-32@~1.2.1",
+          "resolved": "https://registry.npmmirror.com/crc-32/-/crc-32-1.2.2.tgz"
+        },
+        "ssf": {
+          "version": "0.11.2",
+          "from": "ssf@~0.11.2",
+          "resolved": "https://registry.npmmirror.com/ssf/-/ssf-0.11.2.tgz",
+          "dependencies": {
+            "frac": {
+              "version": "1.1.2",
+              "from": "frac@~1.1.2",
+              "resolved": "https://registry.npmmirror.com/frac/-/frac-1.1.2.tgz"
+            }
+          }
+        },
+        "wmf": {
+          "version": "1.0.2",
+          "from": "wmf@~1.0.1",
+          "resolved": "https://registry.npmmirror.com/wmf/-/wmf-1.0.2.tgz"
+        },
+        "word": {
+          "version": "0.3.0",
+          "from": "word@~0.3.0",
+          "resolved": "https://registry.npmmirror.com/word/-/word-0.3.0.tgz"
+        }
+      }
+    }
+  }
+}
